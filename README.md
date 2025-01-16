@@ -1,6 +1,19 @@
 # Shock-Tube-Bifurcation-Prediction
-Shock Tube Bifurcation Prediction
 
+
+**Using the Example Files:**
+
+If you choose "Download Zip" to download the entire repository, then "Extract All" from the downloads folder, 
+the path to the files should be: 
+C:\Users\YourUserName\Downloads\Shock-Tube-Bifurcation-Prediction-main  
+
+When you open Matlab, navigate to the downloads folder.  If you run MlappPredictBifurcation from there, 
+the the command window prompt should be: (Change "YourUserName")
+[BifurcationHeight,tA]=MlappPredictBifurcation('C:\Users\YourUserName\Downloads\20220914_002_ShockData.csv', 'C:\Users\YourUserName\Downloads\20220914_002_DarkFullData.csv', 2, 1, 2, 4, 5, 2.9422, 2.1318, 1.3817, 28.8015);
+
+
+**.m file frontmatter**
+ 
 "MlappPredictBifurcation" - Mitchell D. Hageman October 2024
 PURPOSE:
   *Determine liklihood and extent of shock bifurcation in a shock tube
@@ -19,6 +32,7 @@ Ref 2: Measurement of reflected-shock bifurcation over a wide range of gas compo
 
 Ref 3: Influence of Reflected Shock and Boundary‐Layer Interaction on Shock‐Tube Flows
       L. Davies; J. L. Wilson Phys. Fluids 12, I-37–I-43 (1969)
+
 INPUTS:
   * VacuumFilePath - full file path and name of csv or excel file with your Vacuum sample data
       -example:  'C:\Users\mitchell.hageman\Desktop\Data\20240923_001_VacuumData.csv'
@@ -39,12 +53,18 @@ INPUTS:
   *Mrs [-] - Reflected shock Mach number
    *gamma [-] - specific heat ratio of the test gas.  NEED TO CHECK WHETHER TO USE STATE 1 or 2 FOR THESE CALCS
   *MW_Mix [kg/kmol] - Molecular weight of the test gas.
+
 OUTPUTS:
+  
   *PointData
+  
       -BifurcationHeight [m]                - Value - See Fig1 & Eq(5) Ref 1 (BifurcationHeight=l)
       -Initial Reflected Shock Spike time, tI [s]   - Value - Determined from Pressure trace
       -Reflected Shock arrival time, tA [s] - Value - Determined from Schlieren spike
+      
   * PointLables - Data lables for PointData - Character Matrix
+  * 
   *"Write Plot Data to File" Button writes PlotData and Point Data to .csv in user-selected folder, with lables in the first row.
+
 VERSION NUMBER:
   * 1.0: January 2025 - initial release, Mitchell D. Hageman
