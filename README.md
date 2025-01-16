@@ -8,11 +8,15 @@ PREREQUISITES
   * Experimental Pressure Trace
   * Experimental laser absorbtion trace with strong schlieren spikes
   * MlappPredictBifurcationHelp.pdf is needed in the PWD (present working directory) if you want the help button to work.
+
 REFERENCES
+
 Ref 1: THE INTERACTION OF A REFLECTED SHOCK WAVE WITH THE BOUNDARY LAYER IN A SHOCK TUBE
       Herman Mark (NACA TM 1418) 1958
+
 Ref 2: Measurement of reflected-shock bifurcation over a wide range of gas composition and pressure
       E. L. Petersen · R. K. Hanson, Shock Waves (2006) 15:333–340DOI 10.1007/s00193-006-0032-3
+
 Ref 3: Influence of Reflected Shock and Boundary‐Layer Interaction on Shock‐Tube Flows
       L. Davies; J. L. Wilson Phys. Fluids 12, I-37–I-43 (1969)
 INPUTS:
