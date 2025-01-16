@@ -1,5 +1,8 @@
 # Shock-Tube-Bifurcation-Prediction
 
+**Citing This Work**
+
+If you use this code, please cite it as "Personal Communication, Mitchell D. Hageman" 1/16/2025, and cite the additional references listed in this repository.
 
 **Using the Example Files:**
 
@@ -60,11 +63,8 @@ OUTPUTS:
   
       -BifurcationHeight [m]                - Value - See Fig1 & Eq(5) Ref 1 (BifurcationHeight=l)
       -Initial Reflected Shock Spike time, tI [s]   - Value - Determined from Pressure trace
-      -Reflected Shock arrival time, tA [s] - Value - Determined from Schlieren spike
-      
+      -Reflected Shock arrival time, tA [s] - Value - Determined from Schlieren spike 
   * PointLables - Data lables for PointData - Character Matrix
-  * 
-  *"Write Plot Data to File" Button writes PlotData and Point Data to .csv in user-selected folder, with lables in the first row.
 
 VERSION NUMBER:
   * 1.0: January 2025 - initial release, Mitchell D. Hageman
