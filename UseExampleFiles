@@ -1,7 +1,7 @@
 If you choose "Download Zip" to download the entire repository, then "Extract All" from the downloads folder, 
+the path to the files should be: 
+C:\Users\YourUserName\Downloads\Shock-Tube-Bifurcation-Prediction-main  
 
-the path to the files should be: C:\Users\YourUserName\Downloads\Shock-Tube-Bifurcation-Prediction-main  
-
-When you open Matlab, navigate to the downloads folder.  If you run MlappPredictBifurcation from there, the the command window prompt should be similar to:
-
+When you open Matlab, navigate to the downloads folder.  If you run MlappPredictBifurcation from there, 
+the the command window prompt should be: (Change "YourUserName")
 [BifurcationHeight,tA]=MlappPredictBifurcation('C:\Users\YourUserName\Downloads\20220914_002_ShockData.csv', 'C:\Users\YourUserName\Downloads\20220914_002_DarkFullData.csv', 2, 1, 2, 4, 5, 2.9422, 2.1318, 1.3817, 28.8015);
